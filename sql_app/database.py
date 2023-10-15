@@ -15,17 +15,6 @@ cloudinary.config(
 
 
 
-
-#SQLALCHEMY_DABASE_URL = "postgresql://postgres:1234!@localhost/SolomonJuliusDatabase"
-
-# DATABASE_URL = \
-#     'postgresql://{username}:{password}@{host}:{port}/{database}'.format(
-#         username='postgres',
-#         password='1111',
-#         host='localhost',
-#         port='5432',
-#         database='solomon',)
-
 if 'RDS_DB_NAME' in os.environ:
     DATABASE_URL = \
         'postgresql://{username}:{password}@{host}:{port}/{database}'.format(
