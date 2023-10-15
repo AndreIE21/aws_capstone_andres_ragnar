@@ -40,7 +40,7 @@ else:
     'postgresql://{username}:{password}@{host}:{port}/{database}'.format(
         username='postgres',
         password='postgres',
-        host='aa1u5ij2gyw8uw2.clucxh6clt9r.us-east-1.rds.amazonaws.com',
+        host='4353345.345345345453.us-east-1.rds.amazonaws.com',
         port='5432',
         database='ebdb',)
 
